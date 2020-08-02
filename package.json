@@ -4,8 +4,8 @@
   "description": "NodeJS, TS, TDD, Clean Architecture e SOLID",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
