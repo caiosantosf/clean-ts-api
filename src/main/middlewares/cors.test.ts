@@ -1,9 +1,9 @@
 import request from 'supertest'
 import app from '../config/app'
 
-describe('Body Parser Middleware', () => {
+describe('CORS Middleware', () => {
   test('Should enable CORS', async () => {
-    app.post('/test_cors', (req, res) => {
+    app.get('/test_cors', (req, res) => {
       res.send()
     })
     await request(app)
